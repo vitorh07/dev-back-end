@@ -76,12 +76,17 @@ Crie uma classe UML com base nessas reflexões.
     ```mermaid
         classDiagram
         class Produto {
+            -Id: int
             -Nome: string
             -Descricao: string
             -Preco: double
             -Estoque: int
-            +Vender(qtd: int): boolean
-            +Repor(qtd: int): void
+            +Vender(qtd: int): bool
+            +Repor(qtd: int): bool
+            +Criar(id: int, nome: string, descricao: string, preco: double, estoque: int): bool
+            +Ler(id: int): string
+            +Atualizar(nome: string, descricao: string, preco: double, estoque: int): bool
+            +Deletar(id: int): bool
         }
     ```
 
@@ -92,12 +97,14 @@ Quais dados o sistema precisaria guardar sobre esse livro? Que ações poderiam 
     ```mermaid
         classDiagram
         class Livro {
+            -Id: int
             -Titulo: string
             -Autor: string
-            -Editora: string
-            -Isbn: string
             -Genero: string
-            +NomeDoMetodo(parametro: tipo): tipoDeRetorno
+            +Pesquisar(titulo: string, autor: string): Livro
+            +Filtrar(genero: string): Livro
+            +Emprestar(id: int, data: DateTime): DateTime
+            +Renovar(id: int, data: DateTime): DateTime
         }
     ```
 
@@ -108,11 +115,13 @@ Modele isso como uma classe UML.
     ```mermaid
         classDiagram
         class Conta {
-            -Nome: string
-            -Saldo: double
-            -Tipo: string
-            -DataCriacao: date
-            +Pagar(valor: int): void
+            -Numero: int
+            -Dono: string
+            -Senha: double
+            -Saldo: string
+            +Transferir(number: int, valor: double): bool
+            +Depositar(number: int, valor: double): bool
+            +Sacar(valor: double: senha: string): bool
         }
     ```
 
@@ -126,7 +135,10 @@ Crie uma classe que represente esse "usuário" de forma genérica, com seus atri
             -Username: string
             -Email: string
             -Senha: string
-            +NomeDoMetodo(parametro: tipo): tipoDeRetorno
+            +Create(username: sring, email: string: senha: string): bool
+            +Update(username: string, email: string): bool
+            +Login(username: string: senha: string): bool
+            +Logout(): bool
         }
     ```
 
@@ -137,10 +149,14 @@ Pense em quais informações estão envolvidas em um pedido e quais ações pode
     ```mermaid
         classDiagram
         class Pedido {
-            -Produto: string
-            -Quantidade: int
+            -Id: int
+            -Produtos: []Produto
+            -Data: DateTime
             -Valor: double
-            +NomeDoMetodo(parametro: tipo): tipoDeRetorno
+            +AdicionarItem(produto: Produto, qtt: int): bool
+            +RemoverItem(idProduto: int): bool
+            +CalcularTotal(): double
+            +Desconto(code: string): double
         }
     ```
 
@@ -151,11 +167,11 @@ Reflita sobre os dados e comportamentos necessários para modelar esse conceito.
     ```mermaid
         classDiagram
         class Login {
-            -Username: string
-            -Password: string
             -Token: string
-            -Status: boolean
-            +Deslogar(status: boolean): void
+            -Time: DateTime
+            -Status: bool
+            +Start(time: DateTime): void
+            +End(): void
         }
     ```
 
@@ -167,9 +183,15 @@ Modele esse objeto como uma classe UML.
         classDiagram
         class Repositorio {
             -Nome: string
-            -Descricao: string
-            -Privado: boolean
-            +NomeDoMetodo(parametro: tipo): tipoDeRetorno
+            -Url: string
+            -Dono: Usuario
+            -Colaborador: Usuario
+            -File: Object
+            +CRUD(): -
+            +CreateBranch(name: string): bool
+            +Commit(m: string): bool
+            +Push(url: string): bool
+            +Pull(url: string): bool
         }
     ```
 
