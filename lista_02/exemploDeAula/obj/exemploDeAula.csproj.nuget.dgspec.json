@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemploDeAula\\exemploDeAula.csproj": {}
+    "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemplodeaula\\exemploDeAula.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemploDeAula\\exemploDeAula.csproj": {
+    "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemplodeaula\\exemploDeAula.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemploDeAula\\exemploDeAula.csproj",
+        "projectUniqueName": "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemplodeaula\\exemploDeAula.csproj",
         "projectName": "exemploDeAula",
-        "projectPath": "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemploDeAula\\exemploDeAula.csproj",
+        "projectPath": "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemplodeaula\\exemploDeAula.csproj",
         "packagesPath": "C:\\Users\\Vitor Fogaca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemploDeAula\\obj\\",
+        "outputPath": "C:\\Users\\Vitor Fogaca\\Documents\\dev-back-end\\lista_02\\exemplodeaula\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vitor Fogaca\\AppData\\Roaming\\NuGet\\NuGet.Config"
