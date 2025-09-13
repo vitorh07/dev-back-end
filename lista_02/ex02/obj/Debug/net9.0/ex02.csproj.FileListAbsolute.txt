@@ -1,0 +1,15 @@
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\bin\Debug\net9.0\ex02.exe
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\bin\Debug\net9.0\ex02.deps.json
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\bin\Debug\net9.0\ex02.runtimeconfig.json
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\bin\Debug\net9.0\ex02.dll
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\bin\Debug\net9.0\ex02.pdb
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\ex02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\ex02.AssemblyInfoInputs.cache
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\ex02.AssemblyInfo.cs
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\ex02.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\ex02.sourcelink.json
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\ex02.dll
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\refint\ex02.dll
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\ex02.pdb
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\ex02.genruntimeconfig.cache
+C:\Users\Vitor Fogaca\Documents\dev-back-end\lista_02\ex02\obj\Debug\net9.0\ref\ex02.dll
