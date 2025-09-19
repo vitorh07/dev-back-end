@@ -1,1 +1,13 @@
-﻿Console.WriteLine(Math.PI);
+﻿Arquivo aq1 = new Arquivo("documento.txt");
+aq1.Edit("Olá, mundo!");
+Console.WriteLine($"Nome: {aq1.Name}");
+Console.WriteLine(aq1.Open());
+Console.WriteLine($"Tamanho: {aq1.Size} bytes");
+aq1.Edit("Conteúdo do arquivo");
+Console.WriteLine(aq1.Open());
+aq1.Rename("novo_documento.txt");
+Console.WriteLine($"Novo nome: {aq1.Name}");
+Console.WriteLine($"Tamanho após edição: {aq1.Size} bytes");
+aq1.Clear();
+Console.WriteLine($"Tamanho após limpar: {aq1.Size} bytes");
+Console.WriteLine(aq1.Open());
