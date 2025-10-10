@@ -1,0 +1,15 @@
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.exe
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.deps.json
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.runtimeconfig.json
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.dll
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\bin\Debug\net9.0-windows\ScreenSaver.pdb
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.AssemblyInfoInputs.cache
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.AssemblyInfo.cs
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.sourcelink.json
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.dll
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\refint\ScreenSaver.dll
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.pdb
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\ScreenSaver.genruntimeconfig.cache
+C:\Users\Vitor Fogaca\Documents\dev-back-end\screensave\ScreenSaver\obj\Debug\net9.0-windows\ref\ScreenSaver.dll

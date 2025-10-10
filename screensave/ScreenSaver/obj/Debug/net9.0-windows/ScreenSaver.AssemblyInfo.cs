@@ -10,13 +10,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("exemploDeAula")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ScreenSaver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5875c1860e4a9a742d44e361acaf0c7fb60e54ea")]
-[assembly: System.Reflection.AssemblyProductAttribute("exemploDeAula")]
-[assembly: System.Reflection.AssemblyTitleAttribute("exemploDeAula")]
+[assembly: System.Reflection.AssemblyProductAttribute("ScreenSaver")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ScreenSaver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
