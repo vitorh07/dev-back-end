@@ -8,6 +8,7 @@ public class ScreenSaver : Form
 {
     // ******* Declare suas formas geométricas aqui (escopo global) *******
     MyRectangle r;
+    MyEllipse el;
     // ********************************************************************
     private Timer ControlTimer;
 
@@ -25,6 +26,7 @@ public class ScreenSaver : Form
         {
             // ****** Mova suas formas geométricas aqui ******
             r.Move(ClientSize.Width, ClientSize.Height);
+            el.Move(ClientSize.Width, ClientSize.Height);
             
             // ***********************************************
             Invalidate(); // Foça a tela a ser redesenhada.
@@ -36,7 +38,8 @@ public class ScreenSaver : Form
     {
         base.OnLoad(e);
         // ****** Instancie suas formas geométricas aqui ******
-        r = new MyRectangle(0, 0, Color.Red, 200, 100);
+        r = new MyRectangle(0, 0, Color.FromArgb(157, 0, 255), 200, 100);
+        el = new MyEllipse(1500, 500, Color.FromArgb(255, 255, 0), 150, 80);
         // ****************************************************
     }
 
@@ -45,6 +48,7 @@ public class ScreenSaver : Form
         base.OnPaint(e);
         // ****** Desenhe suas formas geométricas aqui *******
         r.Draw(e.Graphics);
+        el.Draw(e.Graphics);
         // ***************************************************
 
     }
