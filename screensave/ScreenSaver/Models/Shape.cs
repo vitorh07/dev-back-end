@@ -1,3 +1,5 @@
+using System.Drawing;
+
 namespace Models.BaseShapes;
 
 public abstract class Shape
@@ -9,39 +11,52 @@ public abstract class Shape
     protected int Height;
     protected int SpeedX;
     protected int SpeedY;
-    protected Color ColorShape;
+    protected Color ColorShape { get; set; }
+    private Random rand = new Random();
 
     // Construtores
-    public Shape(int x, int y, Color color, int width, int height)
+    public Shape(int screenHeight, int screenWidth)
     {
-        X = x;
-        Y = y;
-        SpeedX = 10;
-        SpeedY = 10;
-        ColorShape = color;
-        Width = width;
-        Height = height;
+        X = rand.Next(screenWidth - 100);
+        Y = rand.Next(screenHeight - 100);
+        do{
+            SpeedX = rand.Next(-10, 11);
+        } while (SpeedX == 0);
+        do{
+            SpeedY = rand.Next(-10, 11);
+        } while (SpeedY == 0);
+        ColorShape = colorGenerater();
+        Width = rand.Next(50, 251);
+        Height = rand.Next(50, 251);
     }
 
     // Métodos
 
     public void Move(int xLimit, int yLimit)
     {
-            Y += SpeedY;
-            X += SpeedX;
+        Y += SpeedY;
+        X += SpeedX;
 
         if (X >= xLimit - Width || X < 0)
         {
             SpeedX = -SpeedX;
             X += SpeedX;
+            ColorShape = colorGenerater();
         }
-        
+
         if (Y >= yLimit - Height || Y < 0)
         {
             SpeedY = -SpeedY;
             Y += SpeedY;
+            ColorShape = colorGenerater();
         }
     }
+
+    private Color colorGenerater()
+    {
+        return Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
+    }
+
 
     // ToString    
     public override string ToString()

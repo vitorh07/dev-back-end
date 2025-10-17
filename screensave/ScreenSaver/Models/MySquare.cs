@@ -1,12 +1,15 @@
 namespace Models.BaseShapes;
 
-public class MyRectangle : Shape
+public class MySquare : Shape
 {
     // Atributos
 
     // Construtores
-    public MyRectangle(int screenHeight, int screenWidth)
-    : base(screenHeight, screenWidth){}
+    public MySquare(int screenHeight, int screenWidth)
+    : base(screenHeight, screenWidth)
+    {
+        Width = Height;
+    }
 
     // Métodos
 

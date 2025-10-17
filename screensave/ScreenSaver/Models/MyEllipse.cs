@@ -2,8 +2,8 @@ namespace Models.BaseShapes;
 
 public class MyEllipse : Shape
 {
-    public MyEllipse(int x, int y, Color color, int width, int height)
-        : base(x, y, color, width, height) { }
+    public MyEllipse(int screenHeight, int screenWidth)
+    : base(screenHeight, screenWidth){}
 
     public void Draw(Graphics g)
     {
